@@ -1,9 +1,14 @@
 body {
   /* background: linear-gradient(to bottom, #857AEB, #F3ECF5, #F2E6F6, #EEDEF4); */
   background: linear-gradient(to bottom, #857AEB, #F3ECF5, #EEDEF4);
-  height: 400vh;
+  height: 312vh;
   margin: 0;
 }
+
+.cardh {
+  display: none;
+}
+
 
 .heading {
   perspective: 800px;
@@ -647,7 +652,7 @@ body {
     flex-direction: column;
     align-items: center;
     font-family: 'Outfit', sans-serif;
-    background: linear-gradient(to bottom, #EEDEF4,#D6F74D);
+    background: linear-gradient(to bottom, #eedef400,#D6F74D);
 }
 
 .head2{
