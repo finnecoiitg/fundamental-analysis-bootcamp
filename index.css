@@ -5,6 +5,35 @@ body {
   margin: 0;
 }
 
+.heading {
+  perspective: 800px;
+}
+
+#heading {
+  transform-style: preserve-3d;
+  animation: tiltRotate 8s infinite ease-in-out;
+}
+
+@keyframes tiltRotate {
+  0% {
+    transform: rotateX(0deg) rotateY(0deg);
+  }
+  25% {
+    transform: rotateX(3deg) rotateY(-3deg);
+  }
+  50% {
+    transform: rotateX(-3deg) rotateY(3deg);
+  }
+  75% {
+    transform: rotateX(1deg) rotateY(-1deg);
+  }
+  100% {
+    transform: rotateX(0deg) rotateY(0deg);
+  }
+}
+
+
+
 .nav_cont {
   height: 90px;
   width: 100%;
@@ -336,7 +365,7 @@ body {
   border-radius: 1rem;
   box-shadow: inset 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
   border: 2px solid #695FD9;
-  transition: 0.1s;
+  transition: 0.2s;
 }
 
 .card:hover{
@@ -426,7 +455,7 @@ body {
   background: #695FD9;
   box-shadow: inset 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
   border: 2px solid #695FD9;
-  transition: 0.1s;
+  transition: 0.2s;
   color:white;
 }
 

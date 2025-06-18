@@ -21,11 +21,12 @@
                 Fundamental <br>Analysis Bootcamp
             </div>
             <div class="nav_center">
-                <button>About</button>
-                <button>Curriculum</button>
-                <button>Quiz</button>
-                <button>Project</button>
+                <button onclick="document.getElementById('about').scrollIntoView()">About</button>
+                <button onclick="document.getElementById('curriculum').scrollIntoView()">Curriculum</button>
+                <button onclick="document.getElementById('quizzes').scrollIntoView()">Quiz</button>
+                <button onclick="document.getElementById('project').scrollIntoView()">Project</button>
             </div>
+
             <div class="nav_right">
                 <img src="icons/fec_logo.svg" alt="" style="height:90%; width: auto;">
                 <div style="height:60%; width:1px; background-color: black; margin: 0px 12px 0px 12px;"></div>
@@ -42,11 +43,12 @@
             </div>
 
             <div class="mobl_nav_btns">
-                <button>About</button>
-                <button>Curriculum</button>
-                <button>Quiz</button>
-                <button>Project</button>
+                <button onclick="document.getElementById('about').scrollIntoView()">About</button>
+                <button onclick="document.getElementById('curriculum').scrollIntoView()">Curriculum</button>
+                <button onclick="document.getElementById('quizzes').scrollIntoView()">Quiz</button>
+                <button onclick="document.getElementById('project').scrollIntoView()">Project</button>
             </div>
+
 
             <div class="mobl_nav_right" id="menu_btn">
                 <img src="icons/menu.svg" alt="">
@@ -85,7 +87,7 @@
 
         </div>
 
-        <div class="bottom_div">
+        <div id="about" class="bottom_div">
             <div class="yellow_bar">
                 <img src="icons/side_img.png" alt="">
                 <div class="yellow_bar_text">
@@ -96,7 +98,7 @@
 
             <br>
 
-            <div class="grid_part_cont">
+            <div id="curriculum" class="grid_part_cont">
                 <h1 style="text-align: center; font-family: 'Outfit', sans-serif;">CURRICULUM & COURSE MATERIALS</h1>
                 <br>
                 <div class="grid">
@@ -201,7 +203,7 @@
                 </div>
 
                 <br>
-
+                <div id="quizzes" ></div>
                 <h1 style="text-align: center; font-family: 'Outfit', sans-serif;">QUIZZES</h1>
                 <br>
                 <div class="quiz-grid">
@@ -239,7 +241,7 @@
             </div>
             <br>
 
-            <div class="footer_part_cont">
+            <div id="project" class="footer_part_cont">
                 
                     <div class="sub">
                         <img id="doller" src="icons/side_img2.png">
@@ -264,16 +266,29 @@
                     </div>
                     <div class="buttons">
                         <div>
-                        <button class="btn"><i class="fa-brands fa-square-instagram"></i> <div>Instagram</div></button>
-                        <button class="btn"><i class="fa-brands fa-linkedin"></i> <div>Linked-in</div></button>
-                        <button class="btn"><i class="fa-brands fa-square-twitter"></i> <div>Twitter</div></button>
+                            <button class="btn" onclick="window.open('https://www.instagram.com/fec_iitg/', '_blank')">
+                            <i class="fab fa-instagram"></i> <div>Instagram</div>
+                            </button>
+                            <button class="btn" onclick="window.open('https://www.linkedin.com/company/finance-and-economics-club-iitg/', '_blank')">
+                            <i class="fab fa-linkedin"></i> <div>LinkedIn</div>
+                            </button>
+                            <button class="btn" onclick="window.open('https://x.com/fec_iitg', '_blank')">
+                            <i class="fab fa-twitter"></i> <div>Twitter</div>
+                            </button>
                         </div>
                         <div>
-                        <button class="btn"><i class="fa-brands fa-square-whatsapp"></i> <div>Whatsapp</div></button>
-                        <button class="btn"><i class="fa-brands fa-square-youtube"></i> <div>Youtube</div></button>
-                        <button class="btn"><i class="fa-brands fa-square-facebook"></i> <div>Facebook</div></button>
+                            <button class="btn" onclick="window.open('https://whatsapp.com/channel/0029Vb6JzFX42DcbVynX1O0t', '_blank')">
+                            <i class="fab fa-whatsapp"></i> <div>Whatsapp</div>
+                            </button>
+                            <button class="btn" onclick="window.open('https://www.youtube.com/@financeandeconomicsclubiit1029', '_blank')">
+                            <i class="fab fa-youtube"></i> <div>Youtube</div>
+                            </button>
+                            <button class="btn" onclick="window.open('https://www.facebook.com/financeclubiitg/', '_blank')">
+                            <i class="fab fa-facebook"></i> <div>Facebook</div>
+                            </button>
                         </div>
-                    </div>
+                        </div>
+
                     <div class="fec">
                         <h>Finance and Economics Club</h>
                         <h> IIT Guwahati</h>
