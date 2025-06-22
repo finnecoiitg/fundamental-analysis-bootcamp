@@ -70,4 +70,3 @@ document.addEventListener('DOMContentLoaded', () => {
   for (let i = 0; i < repeatCount; i++) {
     textEl.innerHTML += content;
   }
-

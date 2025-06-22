@@ -511,7 +511,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  grid-column: span 1;
+  grid-column: span 2;
   border-radius: 1rem;
 }
 
