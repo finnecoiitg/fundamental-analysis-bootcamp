@@ -62,3 +62,12 @@ document.addEventListener('DOMContentLoaded', () => {
         q_suppl.style.gridColumn="span 1";
     }
 });
+
+
+  const textEl = document.getElementById("guideline-marquee");
+  const content = textEl.innerHTML;
+  let repeatCount = Math.ceil(window.innerWidth / textEl.scrollWidth) * 6;
+  for (let i = 0; i < repeatCount; i++) {
+    textEl.innerHTML += content;
+  }
+
