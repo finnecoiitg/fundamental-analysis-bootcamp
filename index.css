@@ -1,7 +1,7 @@
 body {
   /* background: linear-gradient(to bottom, #857AEB, #F3ECF5, #F2E6F6, #EEDEF4); */
   background: linear-gradient(to bottom, #857AEB, #F3ECF5, #EEDEF4);
-  height: 328vh;
+  height: 360vh;
   margin: 0;
 }
 
@@ -337,7 +337,7 @@ body {
 
   body {
     background: linear-gradient(to bottom, #857AEB, #F3ECF5, #F2E6F6, #EEDEF4, white);
-    height: 322vh;
+    height: 346vh;
   }
 
   .nav_cont {
@@ -481,6 +481,7 @@ body {
 
 .image-card img {
   width: 100%;
+  height: 100%;
   border-radius: 1rem;
 }
 
@@ -516,6 +517,7 @@ body {
 }
 
 .quiz-image-card img {
+  height: 100%;
   width: 100%;
   border-radius: 1rem;
 }
