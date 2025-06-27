@@ -1,7 +1,7 @@
 body {
   /* background: linear-gradient(to bottom, #857AEB, #F3ECF5, #F2E6F6, #EEDEF4); */
   background: linear-gradient(to bottom, #857AEB, #F3ECF5, #EEDEF4);
-  height: 360vh;
+  height: 408vh;
   margin: 0;
 }
 
@@ -337,7 +337,7 @@ body {
 
   body {
     background: linear-gradient(to bottom, #857AEB, #F3ECF5, #F2E6F6, #EEDEF4, white);
-    height: 370vh;
+    height: 410vh;
   }
 
   .nav_cont {
